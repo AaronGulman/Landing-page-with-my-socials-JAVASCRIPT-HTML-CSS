@@ -4,12 +4,13 @@
 	font-family:sans-serif;
 }
 
+
 .main {
 	width: 100%;
 	height: 100vh;
 	position: relative;
 	overflow: hidden;
-	background: linear-gradient(to right, #9c27b0, #8ecdff);
+	background: linear-gradient(to right, #2730b0, #ed7777);
 
 }
 
@@ -22,24 +23,18 @@ nav {
 	align-items: center;
 }
 
-.logo {
-	flex-basis: 20%;
-}
-
-.logo img{
-	width: 150px;
-
-}
 
 .nav-links {
 	flex: 1;
 	text-align: right;
+		
 }
 
 .nav-links ul li{
 	list-style: none;
 	display: inline-block;
 	margin: 0 20px;
+	
 
 }
 
@@ -68,21 +63,23 @@ nav {
 	transition:1s;
 }
 
-.feature img{
+.social img{
 	width: 70px;
+	filter: brightness(0) invert(1);
+
 }
 
-.feature{
+.social{
 	position: absolute;
 	display: flex;
 	color: white;
 }
 
-.feature div{
+.social div{
 	margin-left: 30px;
 }
 
-.feature p {
+.social p {
 	margin-top: 8px;
 }
 
@@ -112,8 +109,9 @@ nav {
 
 }
 
-.mobile{
-	width: 200px;
+.myLogo{
+	width: 300px;
+	height:300px;
 	position: absolute;
 	top: 50%;
 	left: 35%;
@@ -150,11 +148,17 @@ nav {
 	width: 0;
 	height: 0;
 	border-top: 500px solid #fff;
-	border-right: 500px solid transparent;
+	border-right: 600px solid transparent;
 	border-bottom: 500px solid #fff;
 	border-left: 500px solid #fff;
-	position: absolute;
+	position: relative;
+	height: 50px;
 	left: 0;
-	top: 0;
+	top: -20px;
 
+}
+
+.socialLink {
+	text-decoration: none;
+	color: white;
 }
