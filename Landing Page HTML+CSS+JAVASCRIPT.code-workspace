@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "The-Parallax-Effect",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "The-Parallax-Effect"
+	}
+}
